@@ -1,0 +1,47 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+span{
+    color: yellowgreen;
+}
+.container{
+    padding: 10px;
+    background-color: #282B32;
+    width: 900px;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+
+}
+.content-column{
+    width: 30%;
+    margin-left: 20px;
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    color: black;
+}
+.content-column > h3, .content-column > p{
+    color: black!important;
+}
+.content-column > img{
+    width: 100%;
+}
+.learn-more{
+    text-align: center;
+    padding: 40px 0px;
+}
+.learn-more > a{
+    border: 2px white solid;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.learn-more > a:hover{
+    border: 2px green solid;
+    background-color: green;
+}

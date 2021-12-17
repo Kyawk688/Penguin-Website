@@ -1,0 +1,70 @@
+body{
+    color:white;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-chim-036.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=1ee26973b113f2cbabcd45a595551859);
+}
+.heading{
+    margin: auto;
+    width: 900px;
+}
+.container{
+    margin: auto;
+    background-color: 
+    #A32F00;
+    width: 900px;
+    min-height: 750px;
+}
+.menu-bar > nav > a{ 
+    border-left: 1px solid white;
+    text-decoration: none;
+    color: white;
+    display:inline-block;
+    padding: 10px 20px;
+}
+.no-border{
+    border-left-width: 0 !important;
+}
+.banner > img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.passage-two-row{
+    background-color: grey;
+    width: 100%;
+    margin-top: -10px;
+    min-height: 260px;
+}
+.passage > h2{
+    text-align: center;
+}
+.passage{
+    float: left;
+    background-color: white;
+    padding-right: 40px;
+
+    color: #000;
+}
+.passage > p{
+    margin-left: 10px;
+}
+.about-penguin{
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.about-penguin > p{
+    float:right;
+}
+.about-penguin > img{
+    width: 100px;
+    display:inline-block;
+    padding:  0px 10px;
+}
+footer{
+    color: black !important
+    ;
+    padding-top: 10px;
+    text-align: center;
+    background-color:#FF9944 ;
+    padding: 20px 0px;
+}
